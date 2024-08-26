@@ -1,0 +1,166 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: rgb(222, 241, 185);
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 9px #000;
+}
+ .form-image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    padding: 1rem;
+    background-color: azured;
+}
+
+.form-image img{
+    width: 31rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.formHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.login-Button{
+    display: flex;
+    align-items: center;
+}
+
+.login-Button button{
+    background-color: rgb(138, 211, 3);
+    padding: 0.4rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 5px;
+    opacity: .8;
+}
+.login-Button button a{
+    color: #000;
+    font-weight: 700;
+}
+
+.login-Button button a:hover{
+    color: #000;
+    font-weight: 900;
+}
+.login-Button button:hover{
+    opacity: 1;
+}
+
+.formHeader h1::after{
+    content: '';
+    display: block;
+    width: 7rem;
+    height: .3rem;
+    background-color: rgb(138, 211, 3);
+    position: absolute;
+    border-radius: 10px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.input-Box{
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 1.3rem;
+}
+
+.input-Box label{
+    margin: 6px;
+    font-weight: 700;
+}
+
+.input-Box input{
+    border: none;
+    padding: 2px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.gender h2{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.gender-types{
+    text-align: center;
+    gap: 3rem;
+    display: flex;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn button{
+    width: 60%;
+    padding: 5px 10%;
+    border: none;
+    color: #000;
+    opacity: .9;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px #000;
+    background-color: rgb(138, 211, 3);
+}
+
+.btn button:hover{
+    opacity: 1;
+}
+
+input::placeholder{
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

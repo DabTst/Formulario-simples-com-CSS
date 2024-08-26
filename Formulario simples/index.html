@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="./img/image.svg" alt="imagem" width="450px" height="550px">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="formHeader">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-Button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="form-container">
+
+                    <div class="input-Box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-Box">
+                        <label for="lastname">Apelido</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu Apelido" required>
+                    </div>
+
+                    <div class="input-Box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-Box">
+                        <label for="tel">Contacto</label>
+                        <input id="tel" type="tel" name="tel" placeholder="(+258) xx-xxx-xxxx" pre required>
+                    </div>
+
+                    <div class="input-Box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-Box">
+                        <label for="password">Confirme Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Confirme sua senha" min="8" max="20" required>
+                    </div>
+                </div>
+                <div class="gender">
+                    <h2>Género</h2>
+                    <div class="gender-types">
+                        <div>
+                            <input type="radio" name="gender">
+                            <label for="Male">Homem</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender">
+                            <label for="women">Mulher</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="gender">
+                            <label for="none">Prefeiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit">Submeter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
